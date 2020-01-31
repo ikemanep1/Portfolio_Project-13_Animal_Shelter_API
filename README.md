@@ -1,24 +1,42 @@
-# README
+# _Animal shelter API!_
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### _a database API for cats and dogs._
 
-Things you may want to cover:
+### By _**Ike Esquivel-Pilloud**_
 
-* Ruby version
+# Description
 
-* System dependencies
+_This program is a database-practice site. It lists cats and dogs in a json object. It has full get/post/patch/delete/put functionality._
 
-* Configuration
+### Setup/Installation Requirements
 
-* Database creation
+* _1: download this application from github_
+* _2: navigate to the file through the terminal_
+* _3: type 'gem install' and 'bundle' into the console_
+* _4: type 'rake db:create', 'rake db:migrate', and 'rake db:seed' in that order_
+* _5: type 'rails s' into the console and navigate to localhost:3000 on postman_
 
-* Database initialization
+# Known Bugs
 
-* How to run the test suite
+__
 
-* Services (job queues, cache servers, search engines, etc.)
+# specs
 
-* Deployment instructions
 
-* ...
+### Support and contact details
+
+_ike.esquivelpilloud@gmail.com_
+
+### Technologies Used
+
+_The API was written in Ruby, on a rails platform. The program uses all gems listed in the Gemfile._
+
+### Gems used:
+
+_All gems for this project are present in the Gemfile._
+
+# License
+
+_MIT licensing_
+
+Copyright (c) 2019 **_Ike Esquivel-Pilloud_**
