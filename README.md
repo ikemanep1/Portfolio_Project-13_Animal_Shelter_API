@@ -18,7 +18,12 @@ _This program is a database-practice site. It lists cats and dogs in a json obje
 
 # Known Bugs
 
-__
+_Note: Ike has spent the past hour working with psuedo-theory code to apply monday's further exploration functionality to his project. The code that has been applied is breaking the rest of the app, so what he has is displayed below:
+
+@dogs = Dog.paginate(page: params[:page], per_page: 30)
+
+<%= will_paginate @dogs %>
+_
 
 # specs
 
