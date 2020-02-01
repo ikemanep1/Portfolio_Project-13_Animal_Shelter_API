@@ -23,6 +23,8 @@ _Note: Ike has spent the past hour working with psuedo-theory code to apply mond
 @dogs = Dog.paginate(page: params[:page], per_page: 30)
 
 <%= will_paginate @dogs %>
+
+I have not been able to find resources that can help me add Monday's further exploration functionality to my API. I will work on this over the weekend.
 _
 
 # specs
