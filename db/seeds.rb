@@ -15,7 +15,6 @@ class Seed
         breed: Faker::Creature::Dog.breed,
         age: 3
       )
-      p "created #{Dog.count} Dogs"
     end
     def generate_cats
       20.times do |i|
@@ -24,9 +23,10 @@ class Seed
           breed: Faker::Creature::Cat.breed,
           age: 3
         )
-        p "created #{Cat.count} Cats"
       end
     end
   end
 end
 Seed.begin
+p "created #{Cat.count} Cats"
+p "created #{Dog.count} Dogs"
