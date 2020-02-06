@@ -8,6 +8,15 @@
 
 _This program is a database-practice site. It lists cats and dogs in a json object. It has full get/post/patch/delete/put functionality._
 
+# API functionality
+
+_The API has Get, Post, Put, Patch, and Delete calls.
+
+_API GET: obtains a list of all cats or dogs in the database (localhost:3001/dogs) (localhost:3001/cats)_
+_API GET by ID: retrives a single entry based on the ID (localhost:3001/dogs/3) (localhost:3001/cats/17)_
+_API POST: adds a new entry to the database, with its own ID (localhost:3001/dogs) (localhost:3001/cats)_
+_API PATCH/PUT: edits an entry by ID. All columns in the entry can be edited. (localhost:3001/dogs/23) or (localhost:3001/dogs/23/edit)
+
 ### Setup/Installation Requirements
 
 * _1: download this application from github_
