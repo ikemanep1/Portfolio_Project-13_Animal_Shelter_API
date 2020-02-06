@@ -8,14 +8,18 @@
 
 _This program is a database-practice site. It lists cats and dogs in a json object. It has full get/post/patch/delete/put functionality._
 
-# API functionality
+# API functionality & endpoints
 
 _The API has Get, Post, Put, Patch, and Delete calls.
 
-_API GET: obtains a list of all cats or dogs in the database (localhost:3001/dogs) (localhost:3001/cats)_
-_API GET by ID: retrives a single entry based on the ID (localhost:3001/dogs/3) (localhost:3001/cats/17)_
-_API POST: adds a new entry to the database, with its own ID (localhost:3001/dogs) (localhost:3001/cats)_
-_API PATCH/PUT: edits an entry by ID. All columns in the entry can be edited. (localhost:3001/dogs/23) or (localhost:3001/dogs/23/edit)
+_API GET: obtains a list of all cats or dogs in the database. (localhost:3001/dogs) (localhost:3001/cats)_
+_API GET by ID: retrives a single entry based on the ID. (localhost:3001/dogs/3) (localhost:3001/cats/17)_
+_API POST: adds a new entry to the database, with its own ID. (localhost:3001/dogs) (localhost:3001/cats)_
+_API PATCH/PUT: edits an entry by ID. All columns in the entry can be edited. (localhost:3000/cats/22?name=Ethan&breed=tabby&age=4)_
+_API DELETE: deletes an entry from the database. (localhost:3000/cats/21)
+
+_The API also has search functionality for animal names, and all of their attributes (age, breed)._
+_(localhost:3000/cats?breed=Burmilla)_
 
 ### Setup/Installation Requirements
 
@@ -26,18 +30,6 @@ _API PATCH/PUT: edits an entry by ID. All columns in the entry can be edited. (l
 * _5: type 'rails s' into the console and navigate to localhost:3000 on postman_
 
 # Known Bugs
-
-_Note: Ike has spent the past hour working with psuedo-theory code to apply monday's further exploration functionality to his project. The code that has been applied is breaking the rest of the app, so what he has is displayed below:
-
-@dogs = Dog.paginate(page: params[:page], per_page: 30)
-
-<%= will_paginate @dogs %>
-
-I have not been able to find resources that can help me add Monday's further exploration functionality to my API. I will work on this over the weekend.
-_
-
-# specs
-
 
 ### Support and contact details
 
