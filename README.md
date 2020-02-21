@@ -10,20 +10,20 @@ This program is a database-practice site. It lists cats and dogs in a json objec
 
 # API functionality & endpoints
 
-The API has Get, Post, Put, Patch, and Delete calls.
+-The API has Get, Post, Put, Patch, and Delete calls.
 
-API GET: obtains a list of all cats or dogs in the database. (localhost:3001/dogs) / (localhost:3001/cats)
+-API GET: obtains a list of all cats or dogs in the database. (localhost:3001/dogs) / (localhost:3001/cats)
 
-API GET by ID: retrives a single entry based on the ID. (localhost:3001/dogs/3) / (localhost:3001/cats/17)
+-API GET by ID: retrives a single entry based on the ID. (localhost:3001/dogs/3) / (localhost:3001/cats/17)
 
-API POST: adds a new entry to the database, with its own ID. (localhost:3001/dogs) / (localhost:3001/cats)
+-API POST: adds a new entry to the database, with its own ID. (localhost:3001/dogs) / (localhost:3001/cats)
 
 
-API PATCH/PUT: edits an entry by ID. All columns in the entry can be edited. (localhost:3000/cats/22?name=Ethan&breed=tabby&age=4)
+-API PATCH/PUT: edits an entry by ID. All columns in the entry can be edited. (localhost:3000/cats/22?name=Ethan&breed=tabby&age=4)
 
-API DELETE: deletes an entry from the database. (localhost:3000/cats/21)
+-API DELETE: deletes an entry from the database. (localhost:3000/cats/21)
 
-The API also has search functionality for animal names, and all of their attributes (age, breed).
+-The API also has search functionality for animal names, and all of their attributes (age, breed).
 
 (localhost:3000/cats?breed=Burmilla)
 
@@ -38,9 +38,9 @@ The API also has search functionality for animal names, and all of their attribu
 # Known Bugs
 
 ### Support and contact details
-_The authenticated version of this repository can be found here: https://github.com/ikemanep1/Portfolio_Project-13_Authenticated_Version _
+The authenticated version of this repository can be found here: https://github.com/ikemanep1/Portfolio_Project-13_Authenticated_Version 
 
-_The visual interface for this repository can be found here: https://github.com/ikemanep1/Portfolio_Project-13_User_Interface_Version _
+The visual interface for this repository can be found here: https://github.com/ikemanep1/Portfolio_Project-13_User_Interface_Version 
 
 _ike.esquivelpilloud@gmail.com_
 
