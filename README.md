@@ -12,19 +12,20 @@ _This program is a database-practice site. It lists cats and dogs in a json obje
 
 _The API has Get, Post, Put, Patch, and Delete calls.
 
-_API GET: obtains a list of all cats or dogs in the database. (localhost:3001/dogs) / (localhost:3001/cats)_
+API GET: obtains a list of all cats or dogs in the database. (localhost:3001/dogs) / (localhost:3001/cats)
 
-_API GET by ID: retrives a single entry based on the ID. (localhost:3001/dogs/3) / (localhost:3001/cats/17)_
+API GET by ID: retrives a single entry based on the ID. (localhost:3001/dogs/3) / (localhost:3001/cats/17)
 
-_API POST: adds a new entry to the database, with its own ID. (localhost:3001/dogs) / (localhost:3001/cats)_
+API POST: adds a new entry to the database, with its own ID. (localhost:3001/dogs) / (localhost:3001/cats)
+
 
 _API PATCH/PUT: edits an entry by ID. All columns in the entry can be edited. (localhost:3000/cats/22?name=Ethan&breed=tabby&age=4)_
 
 _API DELETE: deletes an entry from the database. (localhost:3000/cats/21)
 
-_The API also has search functionality for animal names, and all of their attributes (age, breed)._
+The API also has search functionality for animal names, and all of their attributes (age, breed)._
 
-_(localhost:3000/cats?breed=Burmilla)_
+(localhost:3000/cats?breed=Burmilla)_
 
 ### Setup/Installation Requirements
 
